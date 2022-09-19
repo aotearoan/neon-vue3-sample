@@ -22,7 +22,7 @@ npm install @aotearoan/neon@6.0.0-beta.1
 ```scss
 @use '@aotearoan/neon/themes/smooth' with (
     $neon-components: (NeonLabel),
-    $neon-heading-font-family: 'Strawford, sans-serif',
+    $neon-heading-font-family: unquote('"Plus Jakarta Sans", sans-serif'),
     $neon-h1-size: 48px,
     $neon-color-primary: #8d6200,
     $neon-border-radius-drawer: 0,
