@@ -51,3 +51,9 @@ Then use the components in the template:
   </div>
 </template>
 ```
+### NOTES
+- Neon 6 is currently only in Beta so your mileage may vary
+- Only the _smooth_ theme is currently supported, the others will be provided soon.
+- The exact same component list as before is supported, please refer to the Vue 2 demo website - https://aotearoan.github.io/neon/
+- Note that some options have changed (e.g. _value_ replaced with _modelValue_) so please refer to the JS Docs in the code on the Vue 3 branch (https://github.com/aotearoan/neon/tree/vue3) for exact details until the documentation site is refreshed (coming soon)
+- the vue-i18n dependency has been removed, the few strings that exist in Neon can all be overridden, see docs for more.
