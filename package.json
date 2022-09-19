@@ -1,0 +1,44 @@
+{
+  "name": "v3test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.13",
+    "@aotearoan/neon": "6.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@testing-library/user-event": "^14.3.0",
+    "@testing-library/vue": "^6.6.1",
+    "@types/jest": "^28.1.6",
+    "@types/jsdom-global": "^3.0.2",
+    "@types/node": "^16.11.43",
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vue/tsconfig": "^0.1.3",
+    "@vue/vue3-jest": "^28.0.1",
+    "eslint": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.2.6",
+    "eslint-plugin-vue": "^9.0.0",
+    "jest": "^28.1.3",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "jsdom-global": "^3.0.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.54.5",
+    "ts-jest": "^28.0.7",
+    "typescript": "~4.7.4",
+    "vite": "^3.1.0",
+    "vite-plugin-vue-type-imports": "^0.2.2",
+    "vue-tsc": "^0.38.4"
+  }
+}

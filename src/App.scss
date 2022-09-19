@@ -1,0 +1,35 @@
+@use '@aotearoan/neon/themes/smooth' with (
+  $neon-components: (
+    NeonAlert,
+        NeonPage,
+        NeonButton,
+        NeonFooter,
+        NeonTopNav,
+        NeonGrid,
+        NeonLogo,
+        NeonCard,
+  ), // add all used components here for tree shaking (remove to import all SASS)
+  $neon-heading-font-family: unquote('"Plus Jakarta Sans", sans-serif'),
+  $neon-h1-size: 48px,
+  $neon-color-brand: #7f5bfa,
+  $neon-color-primary: #0651c1,
+  $neon-color-success: #1db5c7,
+  $neon-border-radius-drawer: 0,
+  $neon-logo-width-multiplier: 4,
+  $neon-border-radius-card: 4px,
+);
+
+.app.neon-theme--smooth {
+  .top-nav {
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: space-between;
+  }
+}
+
+.neon-grid-area > .neon-card {
+  &,
+  & > .neon-card-body {
+    flex: 1 0 auto;
+  }
+}
